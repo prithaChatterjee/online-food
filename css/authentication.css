@@ -1,0 +1,68 @@
+.authentication-bg {
+    color: rgb(132, 132, 132);
+    width: 50%;
+}
+
+.authentication-bg header {
+    color: rgb(95, 95, 95);
+}
+
+.authentication-bg header h1 {
+    font-weight: normal;
+}
+
+.authentication-input,
+.authentication-btn,
+.login-through-other {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.authentication-input input {
+    font-size: 18px;
+    padding: 0.75rem 1rem;
+}
+
+.authentication-form button {
+    cursor: pointer;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 18px;
+}
+
+.authentication-btn {
+    border: none;
+    color: white;
+}
+
+.login-through-other {
+    background-color: transparent;
+    border: 1px solid rgb(205, 202, 202);
+    
+}
+
+.login-through-other span {
+    margin: 0 10px;
+}
+
+.or {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.or div {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 0px 5px;
+    color: rgb(211, 209, 209);
+}
+
+.new-section{
+    background: transparent;
+    border: none;
+    color: red;
+    font-size: 18px;
+}

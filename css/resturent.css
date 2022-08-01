@@ -1,0 +1,46 @@
+.resturent-name-bg{
+    width: 25%;
+    padding: 10px;
+}
+
+.resturent-name-link{
+    text-decoration: none;
+    color: rgb(116, 114, 114);
+    font-size: 14px;
+}
+
+.resturent-name-link h3{
+    color: black;
+    font-size: 20px;
+}
+
+.resturent-name-link figure{
+    position: relative;
+}
+
+.resturent-name-link img{
+    height: 10rem;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.resturent-name-link section{
+    position: relative;
+    width: 100%;
+}
+
+.food-items{
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 25px;
+}
+
+.ratings-bg, .ratings{
+    display: flex;
+    gap: 5px;
+}
+
+.order-mode{
+    text-transform: uppercase;
+}

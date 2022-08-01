@@ -1,0 +1,148 @@
+.main-images {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.main-images>figure:first-child {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+}
+
+.all-item-list{
+    grid-column: 2 / span 5;
+}
+
+.main-images>figure{
+    overflow: hidden;
+}
+
+.main-images figure img:hover{
+    transform: scale(1.05);
+    filter: brightness(1.05);
+    object-fit: cover;
+}
+
+.name-rating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-rating h1{
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.ratings-count{
+    display: flex;
+    gap: 25px;
+}
+
+.review-count{
+    display: flex;
+    align-items: center;
+}
+
+.review-count > div{
+    margin: 5px;
+}
+
+.review-about-count, .item-card{
+    border-bottom: 1px dashed rgb(184, 182, 182);
+}
+
+.count, .review-about{
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.review-about{
+    color: rgb(129, 127, 127);
+    text-transform: capitalize;
+}
+
+.resturent-all-details{
+    position: relative;
+}
+
+.summery-about-resturent{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.resturent-basic-food-summery, .resturent-details-tab{
+    color: rgb(105, 105, 105);
+}
+
+.resturent-basic-address-summery{
+    color: rgb(133, 132, 132);
+}
+
+.resturent-details-tab{
+    font-size: 18px;
+}
+
+.filter-item-header{
+    border-right: 1px solid rgb(184, 182, 182);
+}
+
+#foods{
+    position: relative;
+}
+
+.all-food-items{
+    padding: 0.75rem 1rem;
+}
+
+.item-card{
+    width: 100%;
+}
+
+.item-heading{
+    font-size: 50px;
+}
+
+.item-heading h1{
+    font-weight: 300;
+}
+
+.item-body{
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 10px;
+}
+
+.item-details>h3, .item-details>p, .item-details>div{
+    margin-bottom: 0.275rem;
+    font-weight: normal;
+}
+
+.item-details>h3, .item-details>p, .item-details>div{
+    margin-bottom: 0.375rem;
+}
+
+.item-details>p, .item-details>div:not(.rating){
+    margin-bottom: 0.375rem;
+    color: rgb(156, 154, 154);
+    font-size: 13px;
+}
+
+.numbering{
+    color: green;
+}
+
+.photo-galary-bg{
+margin: 20px 0;
+}
+
+.photo-galary-bg .card-bg{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+.image-body{
+    width: 100%;
+    height: 100%;
+}
