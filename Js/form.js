@@ -12,9 +12,6 @@ $(document).ready(function () {
         $(this).find("input").each(function () {
             console.log($(this).val())
         })
-        // $loginFormInput.each(function () {
-        //     console.log($(this).val())
-        // })
     })
 
     $.get("Public/data.txt", function( data ) {
